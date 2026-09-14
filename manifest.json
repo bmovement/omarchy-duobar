@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "lee.duobar",
+  "name": "DuoBar",
+  "version": "0.1.0",
+  "author": "Lee Whitfield",
+  "description": "Battery, Wi-Fi and Bluetooth in one live indicator, inspired by DuoBar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "DuoBar",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "license": "MIT"
+}
